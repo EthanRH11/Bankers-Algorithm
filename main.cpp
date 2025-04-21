@@ -58,7 +58,7 @@ bool isSafeState(int processes, int resources,
 
 int main()
 {
-    std::ifstream inputFile("fail_banker_input.txt");
+    std::ifstream inputFile("banker_input.txt");
 
     if (!inputFile)
     {
